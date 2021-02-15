@@ -5,18 +5,19 @@
 
     <v-main>
       <router-view />
-      <Snackbar />
+      <!-- <Snackbar /> -->
     </v-main>
   </v-app>
 </template>
 
 <script>
 import Navigation from "./components/Navigation"
-import Snackbar from "../src/components/Snackbar.vue";
+// import Snackbar from "../src/components/Snackbar.vue";
 
 export default {
   name: "App",
-  components: { Navigation, Snackbar },
+  // components: { Navigation, Snackbar },
+  components: { Navigation },
 
 };
 </script>
