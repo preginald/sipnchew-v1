@@ -44,7 +44,7 @@ export default {
     servings: 1,
     settings: [],
     activeRecipe: {
-      name: "Vindaloo",
+      name: "Vindaloo paste",
       ingredients: [
         {active: false, unit: "tsp", qty: 1, name: "black peppercorns"},
         {active: false, unit: "items", qty: 4, name: "cloves"},
